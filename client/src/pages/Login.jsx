@@ -8,7 +8,7 @@ function Login() {
         <h2 className="text-3xl font-semibold">Login</h2>
         <form className="flex flex-col justify-center items-center gap-3">
           <input
-            className="border-amber-50 py-2 pl-3 rounded-md "
+            className="border-amber-50 py-2 pl-3 rounded-md"
             type="email"
             name="email"
             id="email"
@@ -28,7 +28,7 @@ function Login() {
           </button>
           <p className="text-center mt-3">
             Don't have an account{" "}
-            <Link to="signup">
+            <Link to="/signup">
               <span className="font-semibold text-green-400">Sign Up</span>
             </Link>
           </p>
